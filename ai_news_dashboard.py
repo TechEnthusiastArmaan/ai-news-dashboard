@@ -17,6 +17,7 @@ EMAIL_PASSWORD = os.getenv("EMAIL_PASSWORD")
 # Support both local and Streamlit Cloud
 GEMINI_API_KEY =  st.secrets.get("GEMINI_API_KEY") or os.getenv("GEMINI_API_KEY")
 
+st.text(f"GEMINI_API_KEY is: {'Yes' if 'GEMINI_API_KEY' in st.secrets else 'No'}")
 
 if not GEMINI_API_KEY:
     st.error("❌ GEMINI_API_KEY not found. Please check your .env file or Streamlit secrets.")
