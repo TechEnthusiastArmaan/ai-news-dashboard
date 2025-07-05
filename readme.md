@@ -12,7 +12,7 @@ A **Streamlit web app** that fetches the latest Artificial Intelligence news and
 ## 🌐 Live Demo
 
 Check out the live app here:  
-[AI News Dashboard](https://ai-news-dashboard-bfzslp58w68zvqkfbo9per.streamlit.app/)
+[AI News Dashboard](https://ai-news-dashboard-y2umsfsetix23y7zqujq9j.streamlit.app/)
 
 ## 🛠️ Getting Started
 
